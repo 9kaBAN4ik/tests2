@@ -118,6 +118,10 @@ async def admin_submenu(message: Message):
         texts["admin_with_user"][user_language]: [
             texts["view_all_users"][user_language],
             texts["add_balance_to_user"][user_language],
+            texts["add_admin_button"][user_language],
+            texts["add_partner_button_admin"][user_language])],
+            texts["view_query_results"][user_language],
+            texts["view_users_with_balance"][user_language],
         ],
         texts["admin_products_moves"][user_language]: [
             texts["view_all_products"][user_language],
